@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-// Deobfuscated version of exicube-cli/index.js
+// Deobfuscated version of budytaxipatch/index.js
 // This appears to be a CLI tool for managing taxi/ride-sharing application configurations
 
 const fs = require('fs');
@@ -114,7 +114,7 @@ function setupDemoData() {
 
 function showHelp() {
     console.log(`
-Usage: exicube-cli <command>
+Usage: budytaxipatch <command>
 
 Commands:
   install      Install taxi configuration and generate AccessKey
@@ -122,9 +122,9 @@ Commands:
   generate-key Generate a new encrypted AccessKey
   
 Examples:
-  exicube-cli install
-  exicube-cli setup
-  exicube-cli generate-key
+  budytaxipatch install
+  budytaxipatch setup
+  budytaxipatch generate-key
 `);
 }
 
